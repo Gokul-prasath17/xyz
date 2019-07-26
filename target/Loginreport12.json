@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "cart",
+        "description": "",
+        "id": "add-to-cart;cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28378284700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open valid browser",
+            "match": {
+              "location": "addcart.open_valid_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9543161700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "provide uname and pwd",
+            "match": {
+              "location": "addcart.provide_uname_and_pwd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4990077000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "search for a product",
+            "match": {
+              "location": "addcart.search_for_a_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 350338900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "check add cart",
+            "match": {
+              "location": "addcart.check_add_cart()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "add to cart",
+    "description": "",
+    "id": "add-to-cart",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/case4.feature",
+    "tags": []
+  }
+]
